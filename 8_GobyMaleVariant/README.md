@@ -145,7 +145,8 @@ Where `$PID` is the process ID (in the example above, 3794433).
 The output will be two figures:
 
 - `results/Fig5_Heterozygosity_SDscf.png` -- The Figure 5 in the paper, showcasing heterozygosity in the four individuals along the chromosomes, and violin plots for the SD region and the rest of chromosome 16.
-![Het](results/Fig5_Heterozygosity_SDscf.png "het")
+
+<img src="results/Fig5_Heterozygosity_SDscf.png" alt="het" width="800" height="800">
 
 - `results/Divergence_SDscf.pdf` -- The distribution of divergence (calculated as dxy) between females and males. It wasn't as helpful so it didn't make it to the paper.
 

@@ -16,6 +16,7 @@ The directories in the repository are ordered to reflect the order of analyses i
 
 TODO:
 
+- Fix size of results figures
 - Remove relative paths in R scripts and in config files of some pipelines
 - Describe folders here and mention what figures are produced where
 
