@@ -363,7 +363,7 @@ ggplot(het_diff,
    geom_line(alpha = 0.8, linewidth = 0.8) +
    theme_bw() +
    facet_grid(chromosome ~ .) +
-   ylab("Heterozygosity") +
+   ylab("Dxy between males and females") +
    xlab("Window position") +
    scale_shape(name = "Individual") +
    scale_colour_manual(values= c("Female" = femalecol, "Male" = malecol)) +
