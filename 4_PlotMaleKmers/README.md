@@ -6,4 +6,4 @@ Two input files, `male_coverage_hap1.txt` and `male_coverage_hap2.txt`, were pro
 
 The plot corresponds to the manuscript Figure 4.
 
-<img src="results/Fig4_hap1vshap2kmerplot.png" alt="Fig4" width="800" height="800">
+<img src="results/Fig4_hap1vshap2kmerplot.png" alt="Fig4" width="600" height="600">
