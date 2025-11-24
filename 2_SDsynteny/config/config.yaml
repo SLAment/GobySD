@@ -1,0 +1,21 @@
+# SDsynteny - Comparing the synteny and annotation of the SD scaffolds in the two-spotted goby
+# ===========================================================================
+# Sandra Lorena Ament Velasquez
+# ++++++++++++++++++++++++++++++++++++++++++++++
+
+# Input data
+assembly: "../../Dryad/Assembly/PomflaTH1xy.fa"
+satDNAgff: "../data/Annotation/PomflaTH1xy-GobyTideCluster_v1.00.gff3"
+genegff: "../data/Annotation/TH1_PflaAmhr2y.gff3"
+
+# SD scaffolds
+SDscaffolds: ["h1tg000060l", "ptg000042l"]
+
+# Scripts
+gggenomes: "scripts/Gggenomes_goby.R"
+
+# Filtering parameters
+MINSIZE: 150      # Min length of a hit to survive filtering
+EXTRABPSIDE: 50   # Buffer extra base pairs cut next to the start and end of the BLAST hits
+VICINITY: 100000   # Max distance between 5 and 3 end hits to form a haplotype 
+IDENTITY: 95   # Minimum percentage of identity of BLAST hit to be considered (default 0)

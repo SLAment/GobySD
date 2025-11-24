@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - r
+dependencies:
+  - r-gggenomes=1.0.1
+  - r-ggplot2=3.5.2
+  - r-tidyverse=2.0.0
+  - r-ggnewscale=0.5.2
+  - r-paletteer=1.6.0
+  - r-ggthemes=5.1.0
