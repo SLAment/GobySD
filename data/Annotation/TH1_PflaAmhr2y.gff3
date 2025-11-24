@@ -1,0 +1,21 @@
+##gff-version 3
+##sequence-region h1tg000060l 1 3958625
+# Gene model of Amhr2y on TH1
+h1tg000060l	manual	gene	3544989	3914365	.	+	.	ID=PflaAmhr2y;Name=Amhr2y;color=#8fce00;description=Tyrosine and serine/threonine kinase, TGFB receptor;product=Anti-muellerian hormone receptor type II;
+h1tg000060l	manual	mRNA	3544989	3914365	.	+	.	ID=PflaAmhr2y.t1;Parent=PflaAmhr2y;Name=Amhr2y;color=#8fce00;description=Tyrosine and serine/threonine kinase, TGFB receptor;product=Anti-muellerian hormone receptor type II;
+h1tg000060l	manual	exon	3544989	3545196	.	+	.	ID=PflaAmhr2y.exon1;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3544989	3545196	.	+	0	ID=PflaAmhr2y.cds1;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	exon	3545257	3545492	.	+	.	ID=PflaAmhr2y.exon2;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3545257	3545492	.	+	2	ID=PflaAmhr2y.cds2;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	exon	3546424	3546639	.	+	.	ID=PflaAmhr2y.exon3;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3546424	3546639	.	+	0	ID=PflaAmhr2y.cds3;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	exon	3903570	3903684	.	+	.	ID=PflaAmhr2y.exon4;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3903570	3903684	.	+	0	ID=PflaAmhr2y.exon4;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	exon	3912716	3912852	.	+	.	ID=PflaAmhr2y.exon5;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3912716	3912852	.	+	2	ID=PflaAmhr2y.cds5;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	exon	3913284	3913436	.	+	.	ID=PflaAmhr2y.exon6;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3913284	3913436	.	+	0	ID=PflaAmhr2y.cds6;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	exon	3914042	3914173	.	+	.	ID=PflaAmhr2y.exon7;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3914042	3914173	.	+	0	ID=PflaAmhr2y.cds7;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	exon	3914249	3914365	.	+	.	ID=PflaAmhr2y.exon8;Parent=PflaAmhr2y.t1;
+h1tg000060l	manual	CDS	3914249	3914365	.	+	0	ID=PflaAmhr2y.cds8;Parent=PflaAmhr2y.t1;
