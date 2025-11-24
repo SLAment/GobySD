@@ -1,0 +1,14 @@
+# Goby2Ref
+# ===========================================================================
+
+# Reference
+reference: "../../Dryad/Assembly/fGobFla1.fasta" # full path to the reference assembly
+nameref: "fGobFla1" # the name of the reference for the output
+
+# Query
+# query: "path/to/PomflaTH1_XY.fa" # the original assembly but with the hap1 scaffold of the SD region
+query: "../../Dryad/Assembly/PomflaTH1xy.fa" # the original assembly but with the hap1 scaffold of the SD region
+namequery: "PomflaTH1xy"
+
+# Scripts
+dotplot: "scripts/gobydotplot.R"
