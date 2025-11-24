@@ -1,0 +1,26 @@
+### MakeKmers.smk: Finding male-specific kmers in a Goby genome assembly
+# ===========================================================================
+# S. Lorena Ament-Velasquez
+# 2025-03-19
+# +++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Sample IDs
+SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
+# Path to BAM files of Illumina samples mapped to the reference
+path2BAMs: "../4_GobyMapping/mapping"
+# The reference genome (absolute path)
+REFGenome: "../../Dryad/Assembly/PomflaTH1xy.fa"
+# Focal scaffold to calculate coverage
+focalscf: "h1tg000060l"
+# Gene Annotation
+genegff: "../data/Annotation/TH1_PflaAmhr2y.gff3"
+# satDNA annotation
+satDNA: "../data/Annotation/PomflaTH1xy-GobyTideCluster_v1.00.gff3"
+
+# Window size
+WINSIZE: 5000
+
+# Scripts
+GobyIlluCov: "scripts/GobyIlluCovMale.R"
+SDstart: 1512182 # To set the start in the X axis of the final plot
+

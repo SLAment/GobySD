@@ -1,0 +1,6 @@
+channels:
+  - conda-forge
+dependencies:
+  - r-cowplot=1.2.0
+  - r-dplyr=1.1.4
+  - r-stringr=1.5.2

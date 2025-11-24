@@ -1,0 +1,17 @@
+### GobyVariantCalling.smk: Variant calling with Illumina data of gobies
+# ===========================================================================
+# S. Lorena Ament-Velasquez
+# 2025-10-16
+# +++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Sample IDs
+SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
+# Illumina reads path
+path2Illumina: "data"
+# The reference genome (comment or uncomment depending on the objective)
+REFGenome: "../../Dryad/Assembly/fGobFla1.fasta"
+# REFGenome: "../../Dryad/Assembly/PomflaTH1xy.fa"
+
+# All the Goby Illumina was sequenced in the same lane
+flowcell: "B22JLF2LT4"
+

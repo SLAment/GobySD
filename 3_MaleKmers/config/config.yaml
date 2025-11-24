@@ -1,0 +1,20 @@
+### MakeKmers.smk: Finding male-specific kmers in a Goby genome assembly
+# ===========================================================================
+# S. Lorena Ament-Velasquez
+# 2025-03-19
+# +++++++++++++++++++++++++++++++++++++++++++++++++
+
+## The (heavy) output of kpool merge -m {table.males} -f {table.females} -o male_specific.tbl
+malekmers: "path/to/male_specific.tbl"
+
+## Nicknames of the primary, haplotype 1 and haplotype 2 assemblies of TH1
+SampleIDs: ["p_ctg", "hap1", "hap2"]
+
+## Assemblies
+# In same order as SamplesIDs!
+Assemblies: ["pr_171_001_Pomatoschistus_flavescens.hifiasm0.24.0.default.bp.p_ctg.fasta", "pr_171_001_Pomatoschistus_flavescens.hifiasm0.24.0.default.bp.hap1.p_ctg.fasta", "pr_171_001_Pomatoschistus_flavescens.hifiasm0.24.0.default.bp.hap2.p_ctg.fasta"]
+path2genomes: "path/to/hifiasm_v0.24.0"
+
+## Scripts
+MaleKmers: "scripts/MaleKmers.R"
+KmerEnrichment: "scripts/KmerEnrichment.R"

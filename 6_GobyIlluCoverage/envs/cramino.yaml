@@ -1,0 +1,4 @@
+channels:
+  - bioconda
+dependencies:
+  - cramino=1.0.0

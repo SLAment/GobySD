@@ -1,0 +1,6 @@
+##gff-version 3
+h1tg000060l	BLASTn	similarity	1857594	1857838	.	.	.	ID=CLocus_135904;Name=scaffold709_74649;eval=1.52e-106;identity=95.918;length=245;color=#000000;
+h1tg000060l	BLASTn	similarity	1891144	1891561	.	.	.	ID=CLocus_135919;Name=scaffold709_104060;color=#000000;
+h1tg000060l	BLASTn	similarity	2343967	2344113	.	.	.	ID=CLocus_333223;Name=scaffold3962_25171;eval=4.44e-64;identity=97.279;length=147;color=#000000;
+h1tg000060l	BLASTn	similarity	2505245	2505563	.	.	.	ID=CLocus_315230;Name=scaffold3260_39920;eval=1.17e-163;identity=99.373;length=319;color=#000000;
+h1tg000060l	BLASTn	similarity	3161324	3161440	.	.	.	ID=CLocus_375750;Name=scaffold7908_19077;eval=1.57e-53;identity=99.145;length=117;color=#000000;
