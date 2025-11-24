@@ -10,4 +10,4 @@ See the paper for details on the figures.
 
 - Figure S6: Abundance of TideCluster satDNA families in the P. flavescens genome
 
-![FigS6](results/FigS6_BarPlotSatDMA_SDvsRest.png "FigS6")
+<img src="results/FigS6_BarPlotSatDMA_SDvsRest.png " alt="FigS6" width="300" height="200">
