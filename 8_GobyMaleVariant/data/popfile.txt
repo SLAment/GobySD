@@ -1,0 +1,4 @@
+PflaHELAf	Female
+PflaKGBDf	Female
+PflaHELEm	Male
+PflaKGBHm	Male

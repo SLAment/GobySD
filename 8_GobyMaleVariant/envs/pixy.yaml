@@ -1,0 +1,6 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - conda-forge::pixy=2.0.0.beta6
+  # - bioconda::htslib=1.21
