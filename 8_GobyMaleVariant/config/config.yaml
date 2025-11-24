@@ -15,9 +15,9 @@ targetscfs: ["OZ251424", "OZ251425", "OZ251426"]
 # SD scaffold
 SDscfs: ["OZ251425"]
 # satDNA gff
-satDNA: "../data/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3"
+satDNA: "../../Dryad/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3"
 # TE gff
-TEgff: "../data/Annotation/fGobFla1-GobyTEv1.00.gff3"
+TEgff: "../../Dryad/Annotation/fGobFla1-GobyTEv1.00.gff3"
 # Population file (a headerless, tab-separated file)
 popfile: "data/popfile.txt"
 # Pixy window size
