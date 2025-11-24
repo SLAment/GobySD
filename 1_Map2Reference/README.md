@@ -135,7 +135,7 @@ The output will be the figures:
 
 - `results/PomflaTH1xy-vs-fGobFla1_Dotplot_chr16.png` - Fig. S5, a dotplot of just chromosome 16
 
-<img src="results/PomflaTH1xy-vs-fGobFla1_Dotplot_chr16.png" alt="chr16" width="600" height="600">
+<img src="results/PomflaTH1xy-vs-fGobFla1_Dotplot_chr16.png" alt="chr16" width="600" height="700">
 
 - `results/PomflaTH1xy-vs-fGobFla1_Dotplot.png` - Fig. S2, a dotplot of the full assembly
 
