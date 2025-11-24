@@ -6,7 +6,7 @@ See the paper for details on the figures.
 
 - Figure S1:  Design of sex-specific markers for the two-spotted goby.
 
-<img src="results/FigS1_MAF_Sex_loci_PCA.png" alt="FigS1" width="1000" height="600">
+<img src="results/FigS1_MAF_Sex_loci_PCA.png" alt="FigS1" width="800" height="450">
 
 - Figure S6: Abundance of TideCluster satDNA families in the P. flavescens genome
 
