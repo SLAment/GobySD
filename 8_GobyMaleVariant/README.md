@@ -150,4 +150,4 @@ The output will be two figures:
 
 - `results/Divergence_SDscf.pdf` -- The distribution of divergence (calculated as dxy) between females and males. It wasn't as helpful so it didn't make it to the paper.
 
-<img src="results/Divergence_SDscf.png" alt="dxy" width="800" height="800">
+<img src="results/Divergence_SDscf.png" alt="dxy" width="600" height="600">
