@@ -37,23 +37,23 @@ snakefile: GobyVariantCalling.smk
 executor: cluster-generic
 
 cluster-generic-submit-cmd:
-	mkdir -p logs/{rule} &&
-	sbatch
-		--account={resources.account}
-		--partition={resources.partition}
-		--cpus-per-task={resources.threads}
-		--mem={resources.mem_mb}
-		--job-name={rule}
-		--error=logs/{rule}/{rule}-{wildcards}-%j.err
-		--output=logs/{rule}/{rule}-{wildcards}-%j.out
-		--time={resources.time}
-		--parsable
+  mkdir -p logs/{rule} &&
+  sbatch
+    --account={resources.account}
+    --partition={resources.partition}
+    --cpus-per-task={resources.threads}
+    --mem={resources.mem_mb}
+    --job-name={rule}
+    --error=logs/{rule}/{rule}-{wildcards}-%j.err
+    --output=logs/{rule}/{rule}-{wildcards}-%j.out
+    --time={resources.time}
+    --parsable
 default-resources:
-	- account="XXXXXXXXX"
-	- partition="shared"
-	- time="1:00:00"
-	- threads=1
-	- mem_mb=1770 #The thin nodes have 128 physical cores and 227 available GB, so just 1.77 GB per core
+  - account="XXXXXXXXX"
+  - partition="shared"
+  - time="1:00:00"
+  - threads=1
+  - mem_mb=1770 #The thin nodes have 128 physical cores and 227 available GB, so just 1.77 GB per core
 
 restart-times: 0
 max-jobs-per-second: 10
