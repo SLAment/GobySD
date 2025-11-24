@@ -130,11 +130,13 @@ If the pipeline is ran without declaring the profile path, then tell it to use t
 The output will be the figures:
 
 - `results/PomflaTH1xy-vs-fGobFla1_chr16_bar.png` - part of Fig. 3 in the paper
-![bar](results/PomflaTH1xy-vs-fGobFla1_chr16_bar.png "bar")
+
+<img src="results/PomflaTH1xy-vs-fGobFla1_chr16_bar.png" alt="bar" width="600" height="80">
 
 - `results/PomflaTH1xy-vs-fGobFla1_Dotplot_chr16.png` - Fig. S5, a dotplot of just chromosome 16
-![chr16](results/PomflaTH1xy-vs-fGobFla1_Dotplot_chr16.png "chr16")
+
+<img src="results/PomflaTH1xy-vs-fGobFla1_Dotplot_chr16.png" alt="chr16" width="600" height="600">
 
 - `results/PomflaTH1xy-vs-fGobFla1_Dotplot.png` - Fig. S2, a dotplot of the full assembly
-![assembly](results/PomflaTH1xy-vs-fGobFla1_Dotplot.png "assembly")
 
+<img src="results/PomflaTH1xy-vs-fGobFla1_Dotplot.png" alt="assembly" width="600" height="600">
