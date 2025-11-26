@@ -4,7 +4,7 @@ The goal of this small pipeline is simply to map the Illumina reads of four *Pom
 
 ## Input files
 
-The pipeline takes fastq files that have already been cleaned. The expected path and name of the files is `"{path2Illumina}/{sample}/{sample}_postQC.{n}.fq.gz"`, where `path2Illumina` is set in the configuration file below, `sample` is the name of each goby individual, and `n` is either 1 or 2 for the two paired-end files.
+The pipeline takes fastq files that have already been cleaned. The expected path and name of the files is `{path2Illumina}/{sample}/{sample}_postQC.{n}.fq.gz`, where `path2Illumina` is set in the configuration file below, `sample` is the name of each goby individual, and `n` is either 1 or 2 for the two paired-end files.
 
 ## Building the environment
 
