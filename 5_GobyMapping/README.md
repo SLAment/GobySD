@@ -2,6 +2,10 @@
 
 The goal of this small pipeline is simply to map the Illumina reads of four *Pomatoschistus flavescens* genomes to an input reference genome, either `fGobFla1.fa` (the reference genome available [here](https://www.ncbi.nlm.nih.gov/bioproject/1249779)) or our own assembly of a male fish (TH1, containing only the Y haplotype version of the SD region). 
 
+## Input files
+
+The pipeline takes fastq files that have already been cleaned. The expected format of the files is `"{path2Illumina}/{sample}/{sample}_postQC.1.fq.gz"`, where `path2Illumina` is set in the configuration file below and `sample` is the name of each goby individual.
+
 ## Building the environment
 
 For this pipeline I rely on the modules available in my local cluster but they could also be installed using [mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html).
