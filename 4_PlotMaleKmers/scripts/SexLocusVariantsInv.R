@@ -16,22 +16,24 @@ library(ggplot2)
 library(paletteer) # https://r-charts.com/color-palettes/
 library(ggthemes)
 # ============================
+# Set working directory
+setwd("/Users/lorena/Library/CloudStorage/Dropbox/VRwork/Manuscripts/12_Goby/Repositories/GobySD/4_PlotMaleKmers")
 
 ## HAP1
-kmercoverage1 <- read.table("../../2_MaleKmers/reports/male_coverage_hap1.txt", header = FALSE)
-radsex <- read.table("../data/radsex_hap1_inv.tsv", header = T)
-sexingmarkers <- read.table("../data/hap1_SexMarkers_selected_corrected.gff3", header = FALSE )
+kmercoverage1 <- read.table("../3_MaleKmers/reports/male_coverage_hap1.txt", header = FALSE)
+radsex1 <- read.table("data/radsex_hap1_inv.tsv", header = T)
+sexingmarkers <- read.table("data/hap1_SexMarkers_selected_corrected.gff3", header = FALSE )
 
 ## HAP2
-kmercoverage2 <- read.table("../../2_MaleKmers/reports/male_coverage_hap2.txt", header = FALSE)
-radsex2 <- read.table("../data/radsex_hap2_inv.tsv", header = T)
+kmercoverage2 <- read.table("../3_MaleKmers/reports/male_coverage_hap2.txt", header = FALSE)
+radsex2 <- read.table("data/radsex_hap2_inv.tsv", header = T)
 
 # Annotation of satDNA on the SD scaffolds
-gff <- read.table("../../1_SDsynteny/data/SDscaffolds.gff3", header = FALSE)
-gffamhr2y <- read.table("/Users/lorena/Library/CloudStorage/Dropbox/VRwork/Manuscripts/12_Goby/Repositories/Dryad/Annotation/TH1_PflaAmhr2y.gff3") %>% filter(V3 == "exon")
+gff <- read.table("../2_SDsynteny/data/SDscaffolds.gff3", header = FALSE)
+gffamhr2y <- read.table("data/TH1_PflaAmhr2y.gff3") %>% filter(V3 == "exon")
 
 ## Output
-hap1vshap2kmerplot <- "../results/Fig4_hap1vshap2kmerplot.png"
+hap1vshap2kmerplot <- "results/Fig4_hap1vshap2kmerplot.png"
 
 # ============================
 # Functions
@@ -100,6 +102,9 @@ names(gffamhr2y) <- c("Scaffold", "source", "type", "start", "end", "score", "st
 # An upper maximum kmer coverage for plotting
 MAXkmerCov <- max(kmercoverage$Coverage)
 
+# Put the radsex markers together
+radsex <- rbind(radsex1, radsex2 %>% filter(Contig == "h2tg000053l"))
+names(radsex)[names(radsex) == 'Contig'] <- 'Scaffold'
 # ============================
 # Prepare the annotation
 # ============================
