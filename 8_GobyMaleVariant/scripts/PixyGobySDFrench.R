@@ -182,7 +182,7 @@ sdlabel <- data.frame(
   chromosome = "OZ251425.1",
   x = (midsatDNA + lensexchr) / 2,  # midpoint of SD region
   y = 0.018,                      # y position above the black bar
-  label = "X region")
+  label = "Sex-linked region")
 
 # Define custom color mapping
 my_colors <- c(
@@ -271,7 +271,7 @@ hetzygoclean %>% dplyr::summarize(kruskal_p = kruskal.test(avg_pi ~ pop)$p.value
     geom_violin() +
     geom_jitter(width = 0.1, alpha = 0.3) +
     scale_y_continuous(limits = c(0, 0.025)) +
-    ggtitle("Heterozygosity in the X region") +
+    ggtitle("Heterozygosity in the sex-linked region") +
     theme_classic() + ylab("Heterozygosity") + xlab("Individual") +
     theme(legend.position="none", axis.title.x = element_blank(),
           plot.title = element_text(size=11, hjust = 0.5, face = "bold")) +
