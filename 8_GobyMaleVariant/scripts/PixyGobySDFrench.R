@@ -188,50 +188,52 @@ sdlabel <- data.frame(
 my_colors <- c(
   "TRC_1"   = "#FE8776",
   "TRC_3"   = "#3DBEAC",
-  "sf10__TRC_75"  = "#AE123A",
+  "sf10__TRC_75"  = "slateblue3",
   "sf11__TRC_42"  = "#FF00FF",
-  "TRC_105" = "#F8AF50" )
+  "TRC_105" = "#d03d56" )
 
 
 hetscan <- ggplot(hetzygoclean, 
-                   aes(x = Midpos, y = het, colour = Sex, shape = pop)) +
-    geom_hline(yintercept= mean(meanhet$mean_het), colour = "gray70") +
-    geom_point(alpha = 0.5, size = 1) +
-    geom_line(alpha = 0.8, linewidth = 0.8) +
-    theme_bw() +
-    facet_grid(chromosome ~ ., labeller = labeller(chromosome = ref_to_chr)) +
-    ggtitle("Heterozygosity along representative autosomes and the sex chromosome (Chr16)") +
-    theme(strip.background = element_rect(fill = "white"),
-          plot.title = element_text(size=11, hjust = 0.5, face = "bold"),
-          panel.grid.major = element_blank(),
-          panel.grid.minor = element_blank()) +
-    ylab("Heterozygosity") +
-    xlab("Window position") +
-    scale_shape(name = "Individual") +
-    scale_colour_manual(values= c("Female" = femalecol, "Male" = malecol)) +
-    coord_cartesian(ylim = c(0, 0.02)) +
-    # Mark the SD region
-    geom_rect(data = sdregion,
-              aes(xmin = start, xmax = end, ymin = 0.0157, ymax = 0.016),
-              colour = "black", fill = "black",
-              inherit.aes = FALSE,
-              show.legend = FALSE) +
-    # Add the label only for OZ251425.1
-    geom_text(data = sdlabel,
-              aes(x = x, y = y, label = label),
-              inherit.aes = FALSE,
-              size = 3,
-              colour = "black") +
-    # Add the satDNA annotation
-    geom_rect(data = gffsatDNAdf_scfs,
-              aes(xmin = start, xmax = end, ymin = 0, ymax = -0.001, fill = Name),
-              inherit.aes = FALSE,
-              alpha = 0.3, # 0.5 for png
-              show.legend = FALSE) +
-    scale_fill_manual(
-      values = my_colors,
-      na.value = "gray70"  # all others not in my_colors will be grey
-    )
+                  aes(x = Midpos, y = het, colour = Sex, shape = pop)) +
+  # Add the satDNA annotation
+  geom_rect(data = gffsatDNAdf_scfs,
+            aes(xmin = start, xmax = end, ymin = 0, ymax = -0.001, fill = Name),
+            inherit.aes = FALSE,
+            alpha = 0.3, # 0.5 for png
+            show.legend = FALSE) +
+  # The diversity estimates
+  geom_hline(yintercept= mean(meanhet$mean_het), colour = "gray70") +
+  geom_point(alpha = 0.5, size = 1) +
+  geom_line(alpha = 0.8, linewidth = 0.8) +
+  theme_bw() +
+  facet_grid(chromosome ~ ., labeller = labeller(chromosome = ref_to_chr)) +
+  ggtitle("Heterozygosity along representative autosomes and the sex chromosome (Chr16)") +
+  theme(strip.background = element_rect(fill = "white"),
+        plot.title = element_text(size=11, hjust = 0.5, face = "bold"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank()) +
+  ylab("Heterozygosity") +
+  xlab("Window position") +
+  scale_shape(name = "Individual") +
+  scale_colour_manual(values= c("Female" = femalecol, "Male" = malecol)) +
+  coord_cartesian(ylim = c(0, 0.02)) +
+  # Mark the SD region
+  geom_rect(data = sdregion,
+            aes(xmin = start, xmax = end, ymin = 0.0157, ymax = 0.016),
+            colour = "black", fill = "black",
+            inherit.aes = FALSE,
+            show.legend = FALSE) +
+  # Add the label only for OZ251425.1
+  geom_text(data = sdlabel,
+            aes(x = x, y = y, label = label),
+            inherit.aes = FALSE,
+            size = 3,
+            colour = "black") +
+  
+  scale_fill_manual(
+    values = my_colors,
+    na.value = "gray70"  # all others not in my_colors will be grey
+  )
 
 ## --- Distribution of heterozygosity between the sexes ----
 
