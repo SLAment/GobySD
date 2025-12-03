@@ -120,20 +120,22 @@ final_enrichment <- kmercoverage %>%
 
 sig_scaffolds <- final_enrichment %>% filter(p_adj < 0.05, prop_male > 0.05)
 
-(enrichplot <- ggplot(final_enrichment, aes(x = prop_male, y = -log10(p_adj), color = Haplotype)) +
-  geom_point() +
-  geom_hline(yintercept = -log10(0.05), linetype = "dashed") +
-  geom_text_repel(
-    data = sig_scaffolds,
-    aes(label = Scaffold),
-    size = 3,
-    box.padding = 0.5,
-    point.padding = 0.2,
-    max.overlaps = 30,
-    show.legend = FALSE
-  ) +
-  theme_bw() +
-  labs(
+(enrichplot <- ggplot(final_enrichment, aes(x = prop_male, y = -log10(p_adj), color = Haplotype, size = n_windows)) +
+    geom_point(alpha = 0.5) +
+    geom_hline(yintercept = -log10(0.05), linetype = "dashed") +
+    geom_text_repel(
+      data = sig_scaffolds,
+      aes(label = Scaffold),
+      size = 3,
+      box.padding = 0.5,
+      point.padding = 0.2,
+      max.overlaps = 30,
+      show.legend = FALSE
+    ) +
+    theme_bw() +
+    theme(panel.grid.minor = element_blank()) +
+    scale_size(name = "No. of windows") +
+    labs(
     x = "Proportion of male-associated windows",
     y = "-log10(FDR-adjusted p-value)") )
 
