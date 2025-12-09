@@ -144,7 +144,7 @@ SDscf_satDNA <- ggplot(
   theme(legend.position = "bottom", 
         panel.grid.major.x = element_blank(),
         axis.text.x = element_text(angle = 90)) +
-  labs(fill = "Repeat family", title = "Haplotype versions of the SD scaffold (coverage > 2 Kb)") +
+  labs(fill = "Repeat family", title = "Haplotype versions of the sex-linked scaffold (coverage > 2 Kb)") +
   ylab("Coverage (bp)") + xlab("satDNA family")
 
 # In general
@@ -163,7 +163,7 @@ rest_satDNA <- ggplot(
         panel.grid.minor = element_blank(),
         panel.grid.major.x = element_blank(),
         axis.text.x = element_text(angle = 90)) +
-  labs(fill = "satDNA family", title = "TH1 genome excluding the SD scaffold (coverage > 50 Kb)") +
+  labs(fill = "satDNA family", title = "TH1 genome excluding the sex-linked scaffolds (coverage > 50 Kb)") +
   ylab("Coverage (bp)") + xlab("satDNA family")
 # So the most common satDNA families in the genome are TRC_1 and TRC_105.
 
