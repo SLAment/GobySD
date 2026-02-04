@@ -2,7 +2,7 @@
 
 Here you'll find the code associated with the genomic analyses of the manuscript:
 
-Ament-Velásquez et al. (2025) "Female-biased sex ratios despite genetic sex determination in a marine fish with male-only parental care", biorxiv, []().
+Ament-Velásquez et al. (2025) "Female-biased sex ratios despite genetic sex determination across a climatic gradient in a marine fish", biorxiv, []().
 
 -----------
 
