@@ -25,7 +25,7 @@ Data:
 > popmap_hap1.txt      # Population map, indicates the sex and population of origin of each individual in the ddRAD dataset. For alignment to haplotype 1 of the reference genome.
 > popmap_hap2.txt      # Population map, indicates the sex and population of origin of each individual in the ddRAD dataset. For alignment to haplotype 2 of the reference genome.
 > popmap_radsex.tsv    # Population map used to identify the sex of individuals in the Radsex pipeline
-> TODO: vcf files? We have aligned to P. minutus and to TH1. respectively 3 and 2x7 Go files.
+> TODO: link to vcf file repository
 
 Code:
 > index_flav.sh      # the reference genome is indexed before alignment of ddRAD reads
@@ -46,7 +46,8 @@ Data:
 > general_stats_table.tsv    # Info on the percentage mapping to goby Reference genome of each sample
 > filesize.txt               # Info on number of reads of each sample
 > Sex_loci_RAD.txt           # List of sex associated markers identified by the RADsex pipeline
-> sexcalls2                  # VCF file obtained from the GT seq data
+> sexcalls2                  > TODO: link to vcf file repository
 
 Code:
+
 > sex_ID.R  # Identifies the genotypic sex of eggs and larvae, produces corresponding figures and Statistical tests.
