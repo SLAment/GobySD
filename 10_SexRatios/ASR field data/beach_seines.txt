@@ -1,0 +1,70 @@
+Year	Site	Date	Location	Method	Hauls	Males	Females
+2006	Kvalen_N	05-May	Bergen	Beach_seine	3_hauls	104	433
+2006	Indre_Fanafj.	09-May	Bergen	Beach_seine	3_hauls	129	124
+							
+2006	Ytre_Fanafj._(Herøy)	09-May	Bergen	Beach_seine	3_hauls	107	138
+							
+2006	Kvalen_N	15-Jun	Bergen	Beach_seine	6_hauls	13	28
+2006	Indre_Fanafj.	12-Jun	Bergen	Beach_seine	3_hauls	73	134
+							
+2006	Ytre_Fanafj._(Herøy)	12-Jun	Bergen	Beach_seine	3_hauls	27	77
+							
+2006	Kvalen_N	06-Jul	Bergen	Beach_seine	4_hauls 	59	225
+2006	Indre_Fanafj.	05-Jul	Bergen	Beach_seine	4 _hauls	38	33
+							
+2006	Ytre_Fanafj._(Herøy)	05-Jul	Bergen	Beach_seine	3_hauls	91	170
+							
+2008	Kvalen_S	05-May	Bergen	Beach_seine	1_haul	126	359
+2008	Kvalen_N	05-May	Bergen	Beach_seine	1_haul	19	196
+2008	Kvalen_S_and_N	06-Jun	Bergen	Beach_seine	4_hauls	87	301
+2008	Kvalen_S	06-Jul	Bergen	Beach_seine	1_haul	3	23
+2008	Kvalen_N	06-Jul	Bergen	Beach_seine	1_haul	27	101
+2008	Kvalen_S	06-Aug	Bergen	Beach_seine	Haul_1_of_2	23	111
+2008	Kvalen_S	06-Aug	Bergen	Beach_seine	Haul_2_of_2	41	99
+2008	Kvalen_N	06-Aug	Bergen	Beach_seine	Haul_1_of_2	20	62
+2008	Kvalen_N	06-Aug	Bergen	Beach_seine	Haul_2_of_2	11	13
+1999	KMF_harbour	02-Jun	Kristineberg	Land_dip_net	n/a	32	47
+1999	KMF_harbour	18-Jun	Kristineberg	Land_dip_net	n/a	11	56
+1999	KMF_harbour	20-Jun	Kristineberg	Land_dip_net	n/a	3	14
+1999	KMF_harbour	08-Jul	Kristineberg	Land_dip_net	n/a	0	10
+1999	KMF_harbour	09-Jul	Kristineberg	Land_dip_net	n/a	8	65
+1999	KMF_harbour	10-Jul	Kristineberg	Land_dip_net	n/a	1	17
+1999	KMF_harbour	26-Jul	Kristineberg	Land_dip_net_	n/a	3	104
+2000	KMF_harbour	07-May	Kristineberg	Land_dip_net_	n/a	15	61
+2000	KMF_harbour	08-May	Kristineberg	Land_dip_net_	n/a	12	23
+2000	KMF_harbour	22-May	Kristineberg	Land_dip_net_	n/a	21	106
+2000	KMF_harbour	04-Jun	Kristineberg	Land_dip_net_	n/a	8	41
+2000	KMF_harbour	05-Jun	Kristineberg	Land_dip_net_	n/a	10	48
+2000	KMF_harbour	19-Jun	Kristineberg	Land_dip_net_	n/a	14	92
+2000	KMF_harbour	03-Jul	Kristineberg	Land_dip_net_	n/a	0	40
+2000	KMF_harbour	04-Jul	Kristineberg	Land_dip_net_	n/a	2	59
+2005	Gåsö	08-May	Kristineberg	Snorkel_dip_net	n/a	61	108
+2005	KMF_harbour	08-May	Kristineberg	Snorkel_dip_net	n/a	85	237
+2005	Långegap	08-May	Kristineberg	Snorkel_dip_net	n/a	47	177
+2005	Måkholmen	09-Jun	Kristineberg	Snorkel_dip_net	n/a	96	204
+2005	Katten	11-Jun	Kristineberg	Snorkel_dip_net	n/a	24	478
+2005	Slaktarn	13-Jun	Kristineberg	Snorkel_dip_net	n/a	22	336
+2005	Rödskärs_kalv	08-Jul	Kristineberg	Snorkel_dip_net	n/a	31	340
+2005	Mansholmen	11-Jul	Kristineberg	Snorkel_dip_net	n/a	22	294
+2005	Hummerhålet	12-Jul	Kristineberg	Snorkel_dip_net	n/a	16	285
+2005	Småholmarna	08-Aug	Kristineberg	Snorkel_dip_net	n/a	1	16
+2005	Kubbungen_N	09-Aug	Kristineberg	Snorkel_dip_net	n/a	15	119
+2005	Tjällsö-holme	10-Aug	Kristineberg	Snorkel_dip_net	n/a	3	85
+2005	Buholmen	10-Aug	Kristineberg	Snorkel_dip_net	n/a	1	24
+2005	Skällholmen	10-Aug	Kristineberg	Snorkel_dip_net	n/a	0	4
+2008	Rödskär	02-May	Kristineberg	Beach_seine	1_haul	127	1251
+2008	Rödskär	14-Jun	Kristineberg	Beach_seine	1_haul	42	228
+							
+2008	Gråskär	14-Jun	Kristineberg	Beach_seine	1_haul	15	36
+							
+2008	Pittleholmen	14-Jun	Kristineberg	Beach_seine	1_haul	60	255
+2008	Rödskär	09-Jul	Kristineberg	Beach_seine	1_haul	12	102
+2008	Kubbungen_S	09-Jul	Kristineberg	Beach_seine	1_haul	4	226
+2008	Långskär-Granbusken	05-Jun	Tvarminne	Beach_seine	1_haul 	2	4
+2008	Mellanskär	06-Jun	Tvarminne	Beach_seine	1_haul	17	24
+2008	Granbusken	18-Jul	Tvarminne	Beach_seine	_Haul_1_of_2	4	31
+2008	Granbusken	18-Jul	Tvarminne	Beach_seine	Haul_2_of_2	1	0
+2008	Mellanskär	18-Jul	Tvarminne	Beach_seine	Haul _1_of_4	1	11
+2008	Mellanskär	18-Jul	Tvarminne	Beach_seine	Haul_2_of_4	5	18
+2008	Mellanskär	18-Jul	Tvarminne	Beach_seine	Haul_3_of_4	4	13
+2008	Mellanskär	18-Jul	Tvarminne	Beach_seine	Haul_4_of_4	4	17

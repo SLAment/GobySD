@@ -1,0 +1,6 @@
+Area	Month	Year	Date	Location	Name	Latit start	Longit start	Latit stop	Longit stop	Expo	Dominant kelp	Males	Femals	Total catch	M/F ratio	doing this work
+Bergen	June	2019	17.06	1	Espedalen	60.16.514	005.13.288	60.16.507	005.13.286	sheltered	sauetang/gris	1	13	14	0.077	ACUP and KdJ
+Bergen	June	2019	17.06	2	Slottholmen	60.16.133	005.12.975	60.16.121	005.12.980	sheltered	sag/gris	35	219	254	0.160	ACUP and KdJ
+Bergen	June	2019	18.06	3	nordre Eggholmen	60.15.774	005.12.773	60.15.261	005.12.778	moderatly	gris/ sag	44	142	186	0.310	ACUP and KdJ
+Bergen	June	2019	19.06	4	island noth of Litlakinna	60.15.226	005.13.110	60.15.215	005.13.102	moderatly - exposed	gris/sukker	72	502	579	0.143	ACUP and KdJ
+Bergen	June	2019	19.06	5	Litlakinna	60.15.066	005.13.154	60.15.060	005.13.178	moderatly-sheltered	sukker/gris	139	260	399	0.535	ACUP and KdJ

@@ -1,0 +1,49 @@
+Locality	Sub-locality	Date	Sum M	Sum F
+Gåsevik	hela	13/05/2010	6	13
+Gåsevik	hela	13/05/2010	11	12
+Gåsevik	hela	13/05/2010	7	11
+Gåsevik	hela	13/05/2010	7	14
+Blåberg S	hela	14/05/2020	25	69
+Blåberg S	hela	14/05/2020	17	36
+Blåberg S	hela	14/05/2020	20	132
+Blåberg S	hela	14/05/2020	27	145
+Blåberg N	outer	14/05/2020	4	6
+Blåberg N	outer	14/05/2020	4	13
+Blåberg N	outer	14/05/2020	2	7
+Blåberg N	outer	14/05/2020	1	9
+Blåberg N	inner (bay)	14/05/2020	2	22
+Blåberg N	inner	14/05/2020	1	23
+Blåberg N	inner	14/05/2020	1	29
+Blåberg N	inner	14/05/2020	1	28
+Gåsevik	hela	09/06/2010	2	58
+Gåsevik	hela	09/06/2010	5	71
+Gåsevik	hela	09/06/2010	1	29
+Gåsevik	hela	09/06/2010	3	16
+Blåberg S	hela	09/06/2010	7	35
+Blåberg S	hela	09/06/2010	7	40
+Blåberg S	hela	09/06/2010	2	31
+Blåberg S	hela	09/06/2010	4	36
+Blåberg N	outer	09/06/2010	3	159
+Blåberg N	outer	09/06/2010	2	163
+Blåberg N	outer	09/06/2010	4	227
+Blåberg N	outer	09/06/2010	8	250
+Blåberg N	inner (bay)	09/06/2010	5	96
+Blåberg N	inner	09/06/2010	4	81
+Blåberg N	inner	09/06/2010	7	58
+Blåberg N	inner	09/06/2010	6	71
+Gåsevik	hela S-N	27/06/2010	4	36
+Gåsevik	hela N-S	27/06/2010	1	43
+Gåsevik	hela S-N	27/06/2010	2	13
+Gåsevik	hela N-S	27/06/2010	1	22
+Blåberg S	hela in-ut	27/06/2010	2	25
+Blåberg S	hela ut-in	27/06/2010	2	33
+Blåberg S	hela in-ut	27/06/2010	0	19
+Blåberg S	hela ut-in	27/06/2010	1	28
+Blåberg N	outer	27/06/2010	1	162
+Blåberg N	outer	27/06/2010	0	127
+Blåberg N	outer	27/06/2010	0	112
+Blåberg N	outer	27/06/2010	0	106
+Blåberg N	inner (bay)	27/06/2010	1	30
+Blåberg N	inner	27/06/2010	1	35
+Blåberg N	inner	27/06/2010	2	16
+Blåberg N	inner	27/06/2010	1	18

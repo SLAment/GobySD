@@ -1,0 +1,48 @@
+Locality	Sub-loc	Date	M total	F total
+Långskär	E Lagoon	04/06/2008	14	11
+Långskär	E Lagoon	04/06/2008	19	19
+Långskär	E Lagoon	04/06/2008	13	13
+Långskär	E Lagoon	04/06/2008	8	9
+Långskär	W Lagoon	04/06/2008	11	1
+Långskär	W Lagoon	04/06/2008	10	2
+Långskär	W Lagoon	04/06/2008	5	2
+Långskär	W Lagoon	04/06/2008	3	5
+Storlandet	West	05/06/2008	13	26
+Storlandet	West	05/06/2008	22	23
+Storlandet	West	05/06/2008	2	3
+Storlandet	West	05/06/2008	5	3
+Storlandet	East	05/06/2008	4	7
+Storlandet	East	05/06/2008	4	4
+Storlandet	East	05/06/2008	5	3
+Storlandet	East	05/06/2008	0	6
+Granbusken	North	05/06/2008	8	12
+Granbusken	North	05/06/2008	12	8
+Granbusken	North	05/06/2008	4	6
+Granbusken	North	05/06/2008	7	6
+Granbusken	East	05/06/2008	22	13
+Granbusken	East	05/06/2008	20	21
+Granbusken	East	05/06/2008	12	13
+Granbusken	East	05/06/2008	8	10
+Långskär	E Lagoon	17/07/2008	0	0
+Långskär	E Lagoon	17/07/2008	0	1
+Långskär	E Lagoon	17/07/2008	0	0
+Långskär	E Lagoon	17/07/2008	0	0
+Långskär	W Lagoon	17/07/2008	0	0
+Långskär	W Lagoon	17/07/2008	0	1
+Långskär	W Lagoon	17/07/2008	0	1
+Granbusken	North	17/07/2008	4	40
+Granbusken	North	17/07/2008	1	67
+Granbusken	North	17/07/2008	4	30
+Granbusken	North	17/07/2008	5	12
+Granbusken	East	17/07/2008	0	2
+Granbusken	East	17/07/2008	3	3
+Granbusken	East	17/07/2008	0	0
+Granbusken	East	17/07/2008	2	4
+Storlandet	West	19/07/2008	1	0
+Storlandet	West	19/07/2008	1	1
+Storlandet	West	19/07/2008	1	1
+Storlandet	West	19/07/2008	1	0
+Storlandet	East	19/07/2008	4	40
+Storlandet	East	19/07/2008	2	13
+Storlandet	East	19/07/2008	1	10
+Storlandet	East	19/07/2008	5	23
