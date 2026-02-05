@@ -1,1 +1,0 @@
-# Sex ratios from wild populations
