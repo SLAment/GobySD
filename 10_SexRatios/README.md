@@ -63,11 +63,12 @@ vcf files will be accessible at: XX Dryad repository to be updated XX
 
 <ins>**Sex_loci_RAD.txt:**</ins>           List of sex associated markers identified by the RADsex pipeline.
 
-<ins>**sexcalls2.vcf.gz :**</ins>          VCF file of genotyped eggs and larvae aligned to the reference genome.
+<ins>**sexcalls2.vcf.gz :**</ins>          VCF file of genotyped eggs and larvae aligned to the reference genome, in folder 09_Others/data
 
 ### Code:
 
 <ins>**sex_ID.R:**</ins>  Identifies the genotypic sex of eggs and larvae, produces corresponding figures and Statistical tests.
+
 
 
 
