@@ -1,11 +1,11 @@
 
-README for Sex Determination of the two-spotted goby Pomatoschistus flavescens
+# README for Sex Determination of the two-spotted goby Pomatoschistus flavescens
 --------------------------------------------------------------------------------
 %¤\¤%\%¤\¤%\%¤\¤%\o/%¤/%¤/%¤/%¤/%¤/%¤/o\%¤\¤%\%¤\¤%\%¤\¤%\o/%¤/%¤/%¤/%¤/%¤/%¤/o\
 
 List of data files and scripts/code, organised by section of the project.
 
-1. Analysis of field data of Adult Sex Ratio (ASR)
+## 1. Analysis of field data of Adult Sex Ratio (ASR)
 --------------------------------------------------
 Data: 
 > OSRdata.csv                                                                            # 2022 Field data of snorkeling observation of natural populations
@@ -16,7 +16,7 @@ Code:
 >ASR_script.R      # Analyse 2022 ASR data and historical ASR data, produces corresponding figures and statistical tests. 
 
 
-2. Identification of sex-specific loci using RADseq data, aligned to the reference genome.
+## 2. Identification of sex-specific loci using RADseq data, aligned to the reference genome.
 -----------------------------------------------------------------------------------------
 
 Data:
@@ -38,7 +38,7 @@ Code:
 
 
 
-3. Identification of the sex of eggs and larvae from genotype
+## 3. Identification of the sex of eggs and larvae from genotype
 --------------------------------------------------------------
 
 Data:
@@ -51,3 +51,4 @@ Data:
 Code:
 
 > sex_ID.R  # Identifies the genotypic sex of eggs and larvae, produces corresponding figures and Statistical tests.
+
