@@ -43,7 +43,7 @@ However, rather than having a profile file in all the pipelines, I declare a glo
 
 For example, from other pipelines:
 
-	> export SNAKEMAKE_PROFILE='../4_GobyMapping/profile'
+	> export SNAKEMAKE_PROFILE='../05_GobyMapping/profile'
 
 The `config.v8+.yaml` file contains:
 
@@ -106,7 +106,7 @@ There are many ways of running the pipeline. In this case I'm using the profile 
 
 	$ screen -R align
 	$ mamba activate gobyalign
-	$ export SNAKEMAKE_PROFILE='../4_GobyMapping/profile'
+	$ export SNAKEMAKE_PROFILE='../05_GobyMapping/profile'
 	$ snakemake --snakefile Goby2Ref.smk &> snakemake.log &
 	[1] 2879588
 

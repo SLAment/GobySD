@@ -52,7 +52,7 @@ KmerEnrichment: "scripts/KmerEnrichment.R"
 
 Go to working directory if you are not there already:
 
-	> cd 3_MaleKmers
+	> cd 03_MaleKmers
 
 Activate the environment:
 
