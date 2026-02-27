@@ -1,10 +1,8 @@
-# Analyses related to adult sex ratio in populations of the two-spotted goby Pomatoschistus flavescens
---------------------------------------------------------------------------------
+# Analyses related to adult sex ratio in populations of the two-spotted goby *Pomatoschistus flavescens*
 
 List of data files and scripts/code, organised by section of the project.
 
 ## 1. Analysis of field data of Adult Sex Ratio (ASR)
---------------------------------------------------
 
 ### List of datasets: 
 <ins>**OSRdata.csv:**</ins> 2022 Field data of snorkeling observation of natural populations
@@ -18,7 +16,6 @@ List of data files and scripts/code, organised by section of the project.
 
 
 ## 2. Identification of sex-specific loci using RADseq data, aligned to the reference genome.
------------------------------------------------------------------------------------------
 
 ### External data:
 ddRAD reads will be accessible at: http://www.ncbi.nlm.nih.gov/bioproject/1224570 
@@ -50,9 +47,7 @@ vcf files will be accessible at: XX Dryad repository to be updated XX
 <ins>**markers_list.R:**</ins>     Extracts the list of markers associated with sex from the output of Stacks and Radsex. Also provides the calculation of the proportion of Heterozygous males and females for the sex markers in the ddRAD data.
 
 
-
 ## 3. Identification of the sex of eggs and larvae from genotype
---------------------------------------------------------------
 
 ### List of datasets:
 <ins>**popmap_corrected:**</ins>           Population map, indicates which population an nest the eggs and larvae come from, and in the case of adult Controls which sex they are.
@@ -68,7 +63,3 @@ vcf files will be accessible at: XX Dryad repository to be updated XX
 ### Code:
 
 <ins>**sex_ID.R:**</ins>  Identifies the genotypic sex of eggs and larvae, produces corresponding figures and Statistical tests.
-
-
-
-
