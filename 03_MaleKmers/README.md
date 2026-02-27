@@ -48,6 +48,48 @@ MaleKmers: "scripts/MaleKmers.R"
 KmerEnrichment: "scripts/KmerEnrichment.R"
 ```
 
+## Using profiles
+
+For this pipeline I use a [profile](https://snakemake.readthedocs.io/en/stable/executing/cli.html#profiles), which has the information necessary to run the pipeline in a SLURM server. It depends on a file called `config.v8+.yaml` that is usually in the `profile` folder.
+
+The `config.v8+.yaml` file contains:
+
+```yaml
+cluster-generic-submit-cmd:
+  mkdir -p logs/{rule} &&
+  sbatch
+    --account={resources.account}
+    --partition={resources.partition}
+    --cpus-per-task={resources.threads}
+    --mem={resources.mem_mb}
+    --job-name={rule}
+    --error=logs/{rule}/{rule}-{wildcards}-%j.err
+    --output=logs/{rule}/{rule}-{wildcards}-%j.out
+    --time={resources.time}
+    --parsable
+default-resources:
+  - account="XXXXXXXXX"
+  - partition="core"
+  - time="1:00:00"
+  - threads=1
+  - mem_mb=2GB
+
+restart-times: 0
+max-jobs-per-second: 10
+max-status-checks-per-second: 1
+jobs: 100
+keep-going: True
+rerun-incomplete: True
+printshellcmds: True
+scheduler: greedy
+use-conda: True
+cluster-cancel: scancel # To automatically cancel all running jobs when you cancel the main Snakemake process 
+cluster-cancel-nargs: 50
+```
+
+Where XXXXXXXXX is your cluster account. Replace that! Be also mindful of the name of the partitions used in your cluster and the memory given per thread.
+
+
 ## Pipeline
 
 Go to working directory if you are not there already:
