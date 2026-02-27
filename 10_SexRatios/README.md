@@ -1,11 +1,11 @@
-
-# README for Sex Determination of the two-spotted goby Pomatoschistus flavescens
+# Analyses related to adult sex ratio in populations of the two-spotted goby Pomatoschistus flavescens
 --------------------------------------------------------------------------------
 
 List of data files and scripts/code, organised by section of the project.
 
 ## 1. Analysis of field data of Adult Sex Ratio (ASR)
 --------------------------------------------------
+
 ### List of datasets: 
 <ins>**OSRdata.csv:**</ins> 2022 Field data of snorkeling observation of natural populations
 
@@ -23,7 +23,7 @@ List of data files and scripts/code, organised by section of the project.
 ### External data:
 ddRAD reads will be accessible at: http://www.ncbi.nlm.nih.gov/bioproject/1224570 
 
-reference genome will be accessible at: XX Dryad repository to be updated XX
+reference genome will be accessible at: XX Zenodo repository to be updated XX
 
 vcf files will be accessible at: XX Dryad repository to be updated XX
 
@@ -39,11 +39,11 @@ vcf files will be accessible at: XX Dryad repository to be updated XX
 
 <ins>**align_flav.sh:**</ins>      Uses the ddRAD reads and the indexed reference genome and produces sorted alignment files, for haplotypes 1 and 2 of the reference genome.
 
-<ins>**gstacks_flav.sh :**</ins>   Used the sorted alignment files and the population map and feeds them to the Stacks pipeline, first step gstacks to produce a catalog.
+<ins>**gstacks_flav.sh:**</ins>   Used the sorted alignment files and the population map and feeds them to the Stacks pipeline, first step gstacks to produce a catalog.
 
 <ins>**population_flav.sh:**</ins> Uses the catalog and the population map to produce a VCF file.
 
-<ins>**assoc_flav.sh :**</ins>     Filters the vcf, then uses plink to test for association of allele frequency and SNP missingness with sex.
+<ins>**assoc_flav.sh:**</ins>     Filters the vcf, then uses plink to test for association of allele frequency and SNP missingness with sex.
 
 <ins>**radsex_flav.sh:**</ins>     Runs the Radsex pipeline on the ddRAD reads, finds sex specific markers, maps them to the reference genome.
 
