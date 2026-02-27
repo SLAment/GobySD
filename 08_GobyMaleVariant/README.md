@@ -4,9 +4,11 @@ Variant calling can be very computationally demanding and the "all-sites" vcf fi
 
 ## Input files
 
-This pipeline uses the BAM files produced by the pipeline in `5_GobyIlluCoverage` ran for the `fGobFla1.fasta` reference genome, the reference itself, the repeats annotation (two files: TEs and satDNA). The pipeline also uses a small `data/popfile.txt` file to mark who is male and who is female. The BAM files have been filtered to removed double-mapping reads (leaving one, removing the other). 
+This pipeline uses the BAM files produced by the pipeline in `06_GobyIlluCoverage` ran for the `fGobFla1.fasta` reference genome, the reference itself, the repeats annotation (two files: TEs and satDNA). The pipeline also uses a small `data/popfile.txt` file to mark who is male and who is female. The BAM files have been filtered to removed double-mapping reads (leaving one, removing the other). 
 
 The pipeline runs for a window size of of 50000 bp, but this can be changed in the `config/config.yaml` file below.
+
+Some of the input files are only available in the Zenodo repository (TODO: provide link).
 
 ## The configuration file
 
@@ -16,17 +18,17 @@ The pipeline expects a configuration file in the path `config/config.yaml`, whic
 # Sample IDs
 SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
 # Illumina reads path
-path2BAMs:  "../5_GobyIlluCoverage/mapping" # there should be a folder per sample, and inside a BAM file called "{sample}.sorted.debup.filtered.bam"
+path2BAMs:  "../06_GobyIlluCoverage/mapping" # there should be a folder per sample, and inside a BAM file called "{sample}.sorted.debup.filtered.bam"
 # The reference genome (absolute path)
-REFGenome: "path/to/fGobFla1.fasta"
+REFGenome: "../../Zenodo/Assembly/fGobFla1.fasta" # Available in Zenodo repository
 # The focal scaffold names
 targetscfs: ["OZ251424", "OZ251425", "OZ251426"]
 # SD scaffold
 SDscfs: ["OZ251425"]
 # satDNA gff
-satDNA: "../data/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3"
+satDNA: "../../Zenodo/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3" # Available in Zenodo repository
 # TE gff
-TEgff: "../data/Annotation/fGobFla1-GobyTEv1.00.gff3"
+TEgff: "../../Zenodo/Annotation/fGobFla1-GobyTEv1.00.gff3" # Available in Zenodo repository
 # Population file (a headerless, tab-separated file)
 popfile: "data/popfile.txt"
 # Pixy window size
@@ -60,7 +62,7 @@ However, rather than having a profile file in all the pipelines, I declare a glo
 
 For example, from other pipelines:
 
-	> export SNAKEMAKE_PROFILE='../4_GobyMapping/profile'
+	> export SNAKEMAKE_PROFILE='../05_GobyMapping/profile'
 
 If it doesn't work, you might have to add this to the pipeline at the start of the code, as:
 

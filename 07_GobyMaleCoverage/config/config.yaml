@@ -7,15 +7,15 @@
 # Sample IDs
 SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
 # Path to BAM files of Illumina samples mapped to the reference
-path2BAMs: "../4_GobyMapping/mapping"
+path2BAMs: "../05_GobyMapping/mapping"
 # The reference genome (absolute path)
-REFGenome: "../../Dryad/Assembly/PomflaTH1xy.fa"
+REFGenome: "../../Zenodo/Assembly/PomflaTH1xy.fa" # Available in Zenodo repository
 # Focal scaffold to calculate coverage
 focalscf: "h1tg000060l"
 # Gene Annotation
 genegff: "../data/Annotation/TH1_PflaAmhr2y.gff3"
 # satDNA annotation
-satDNA: "../data/Annotation/PomflaTH1xy-GobyTideCluster_v1.00.gff3"
+satDNA: "../../Zenodo/Annotation/PomflaTH1xy-GobyTideCluster_v1.00.gff3" # Available in Zenodo repository
 
 # Window size
 WINSIZE: 5000

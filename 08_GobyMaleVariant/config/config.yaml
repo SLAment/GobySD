@@ -7,17 +7,17 @@
 # Sample IDs
 SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
 # Illumina reads path
-path2BAMs:  "../5_GobyIlluCoverage/mapping" # there should be a folder per sample, and inside a BAM file called "{sample}.sorted.debup.filtered.bam"
+path2BAMs:  "../06_GobyIlluCoverage/mapping" # there should be a folder per sample, and inside a BAM file called "{sample}.sorted.debup.filtered.bam"
 # The reference genome (absolute path)
-REFGenome: "../../Dryad/Assembly/fGobFla1.fasta"
+REFGenome: "../../Zenodo/Assembly/fGobFla1.fasta" # Available in Zenodo repository
 # The focal scaffold names
 targetscfs: ["OZ251424", "OZ251425", "OZ251426"]
 # SD scaffold
 SDscfs: ["OZ251425"]
 # satDNA gff
-satDNA: "../../Dryad/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3"
+satDNA: "../../Zenodo/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3" # Available in Zenodo repository
 # TE gff
-TEgff: "../../Dryad/Annotation/fGobFla1-GobyTEv1.00.gff3"
+TEgff: "../../Zenodo/Annotation/fGobFla1-GobyTEv1.00.gff3" # Available in Zenodo repository
 # Population file (a headerless, tab-separated file)
 popfile: "data/popfile.txt"
 # Pixy window size

@@ -4,8 +4,8 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++
 
 # Input data
-assembly: "../../Dryad/Assembly/PomflaTH1xy.fa"
-satDNAgff: "../data/Annotation/PomflaTH1xy-GobyTideCluster_v1.00.gff3"
+assembly: "../../Zenodo/Assembly/PomflaTH1xy.fa" # Available in Zenodo repository
+satDNAgff: "../../Zenodo/Annotation/PomflaTH1xy-GobyTideCluster_v1.00.gff3" # Available in Zenodo repository
 genegff: "../data/Annotation/TH1_PflaAmhr2y.gff3"
 
 # SD scaffolds
