@@ -8,7 +8,7 @@ Ament-Velásquez et al. (2025) "Female-biased sex ratios despite genetic sex det
 
 - Smaller datasets and annotation files are provided in this repository. Larger files, such as the genome assemblies, GFF annotation files, and VCF variant files will be available in Zenodo (coming soon).
 - The newly-generated genomic data for this study have been deposited in the European Nucleotide Archive (ENA) at EMBL-EBI under accession number [PRJEB103015](https://www.ebi.ac.uk/ena/browser/view/PRJEB103015) (coming soon).
-- Previously produced ddRAD raw reads are available [here](http://www.ncbi.nlm.nih.gov/bioproject/1224570) (coming soon).
+- Previously produced ddRAD raw reads are available in National Center for Biotechnology Information (NCBI), [here](http://www.ncbi.nlm.nih.gov/bioproject/1224570) (coming soon).
 
 -----------
 
