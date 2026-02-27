@@ -81,7 +81,7 @@ I also used a configuration file, but that is called internally in the pipeline.
 
 Go to working directory if you are not there already:
 
-	> cd 5_GobyMapping
+	> cd 05_GobyMapping
 
 Initiate the environment:
 

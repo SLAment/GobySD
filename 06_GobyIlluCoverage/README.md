@@ -4,7 +4,9 @@ The objective is to infer coverage along the scaffolds of the two-spotted goby *
 
 ## Input files
 
-This pipeline uses the output of `4_GobyMapping` (BAM files), the reference genome and the annotation of satDNA. See the configuration file below.
+This pipeline uses the output of `05_GobyMapping` (BAM files), the reference genome and the annotation of satDNA. See the configuration file below.
+
+The genome assembly and the annotation is available in the Zenodo repository (TODO: provide link).
 
 ## The configuration file
 
@@ -14,11 +16,11 @@ The pipeline expects a configuration file in the path `config/config.yaml`, whic
 # Sample IDs
 SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
 # Path to BAM files of Illumina samples mapped to the reference
-path2bams: "../4_GobyMapping/mapping"
+path2bams: "../05_GobyMapping/mapping"
 # The reference genome (absolute path)
-REFGenome: "path/to/fGobFla1.fasta"
+REFGenome: "path/to/fGobFla1.fasta" # Available in Zenodo repository
 # satDNA annotation
-satDNA: "../data/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3"
+satDNA: "../data/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3" # Available in Zenodo repository
 # Scripts
 GobyIlluCovDist: "scripts/GobyIlluCovDist.R"
 ```

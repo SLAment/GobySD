@@ -8,11 +8,11 @@
 # SampleIDs: ["PflaHELEm", "PflaKGBDf"]
 SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
 # Path to BAM files of Illumina samples mapped to the reference
-path2bams: "../4_GobyMapping/mapping"
+path2bams: "../05_GobyMapping/mapping"
 # The reference genome (absolute path)
-REFGenome: "../../Dryad/Assembly/fGobFla1.fasta"
+REFGenome: "../../Dryad/Assembly/fGobFla1.fasta" # Available in Zenodo repository
 # satDNA annotation
-satDNA: "../data/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3"
+satDNA: "../data/Annotation/fGobFla1-GobyTideCluster_v1.00.gff3" # Available in Zenodo repository
 # Scripts
 GobyIlluCovDist: "scripts/GobyIlluCovDist.R"
 
