@@ -1,4 +1,4 @@
-snakefile: MaleKmers.smk
+snakefile: GobyVariantCalling.smk
 executor: cluster-generic
 
 cluster-generic-submit-cmd:
@@ -14,12 +14,11 @@ cluster-generic-submit-cmd:
     --time={resources.time}
     --parsable
 default-resources:
-  # - account="naiss2024-5-85" # Hanna's
-  - account="naiss2024-22-1697" # yeast's as of jan 2025
-  - partition="shared"
+  - account="XXXXXXXXX" # CHANGE THIS
+  - partition="shared" # ADJUST TO MATCH YOUR SERVER
   - time="1:00:00"
   - threads=1
-  - mem_mb=1770 #The thin nodes have 128 physical cores and 227 available GB, so just 1.77 GB per core
+  - mem_mb=1770 # ADJUST TO MATCH YOUR SERVER
 
 restart-times: 0
 max-jobs-per-second: 10
