@@ -2,6 +2,10 @@
 
 The goal of this small pipeline is to map the Illumina reads of four *Pomatoschistus flavescens* genomes to an input reference genome, either `fGobFla1.fa` (the reference genome available [here](https://www.ncbi.nlm.nih.gov/bioproject/1249779)) or our own assembly of a male fish (TH1, containing only the Y haplotype version of the SD region). The latter corresponds to the file `PomflaTH1xy.fa` produced by the `../01_Map2Reference/Goby2Ref.smk` pipeline and available in [Zenodo](), but with the X scaffold removed (named `ptg000042l`).
 
+To remove the x scaffold you can use my script [purgeFasta.py](https://github.com/SLAment/Genomics/blob/master/FastaManipulation/purgeFasta.py):
+
+	% python purgeFasta.py PomflaTH1xy.fa "ptg000042l" --string --purge > PomflaTH1y.fa
+
 ## Input files
 
 The pipeline takes fastq files that have already been cleaned. The expected path and name of the files is `{path2Illumina}/{sample}/{sample}_postQC.{n}.fq.gz`, where `path2Illumina` is set in the configuration file below, `sample` is the name of each goby individual, and `n` is either 1 or 2 for the two paired-end files.
