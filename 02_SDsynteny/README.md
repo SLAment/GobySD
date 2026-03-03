@@ -75,3 +75,5 @@ You should get a number, `$PID`, that you can use to cancel the job it something
 ## Results
 
 The pipeline will produce part of the Figure 3 in the manuscript. The rest of the figure was put together with the mummer alignment produced in `01_Map2Reference` to chromosome 16 and Inkscape.
+
+<img src="results/SDsynteny.png" alt="synteny">
