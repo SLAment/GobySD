@@ -1,12 +1,12 @@
 # GobyMaleCoverage: Calculating coverage along the goby's genome
 
-The objective is to infer coverage along the Y haplotype of the two-spotted goby *Pomatoschistus flavescens* using Illumina data of four individuals (two females and two males). This pipeline is very similar to the one in `5_GobyIlluCoverage` but it focuses in just in the Y scaffold, while the previous pipeline deals with all scaffolds at some point.
+The objective is to infer coverage along the Y haplotype of the two-spotted goby *Pomatoschistus flavescens* using Illumina data of four individuals (two females and two males). This pipeline is very similar to the one in `06_GobyIlluCoverage` but it focuses in just in the Y scaffold, while the previous pipeline deals with all scaffolds at some point.
 
 ## Input files
 
-This pipeline uses the output of `4_GobyMapping` (BAM files) but ran for `PomflaTH1xy.fa` **with the x haplotype removed** (let's call it `PomflaTH1y.fa`), the reference genome (you can use the original `PomflaTH1xy.fa` or `PomflaTH1y.fa`, it won't make a difference), the annotation of satDNA, and the annotation of the *amhr2y* gene in gff3 format. See the configuration file below.
+This pipeline uses the output of `05_GobyMapping` (BAM files) but ran for `PomflaTH1xy.fa` **with the x haplotype removed** (let's call it `PomflaTH1y.fa`), the reference genome (you can use the original `PomflaTH1xy.fa` or `PomflaTH1y.fa`, it won't make a difference), the annotation of satDNA, and the annotation of the *amhr2y* gene in gff3 format. See the configuration file below.
 
-If you ran the pipeline in `4_GobyMapping` you will have to copy the empty folder again and run it this time for `PomflaTH1y.fa`. To remove the x scaffold you can use my script [purgeFasta.py](https://github.com/SLAment/Genomics/blob/master/FastaManipulation/purgeFasta.py):
+If you ran the pipeline in `05_GobyMapping` you will have to copy the empty folder again and run it this time for `PomflaTH1y.fa`. To remove the x scaffold you can use my script [purgeFasta.py](https://github.com/SLAment/Genomics/blob/master/FastaManipulation/purgeFasta.py):
 
 	% python purgeFasta.py PomflaTH1xy.fa "ptg000042l" --string --purge > PomflaTH1y.fa
 
