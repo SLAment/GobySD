@@ -43,7 +43,7 @@ However, rather than having a profile file in all the pipelines, I declare a glo
 
 	$ export SNAKEMAKE_PROFILE='path/to/profile'
 
-For example, from other pipelines:
+For example, you can use the profile present in another pipeline and it should work as well:
 
 	> export SNAKEMAKE_PROFILE='../05_GobyMapping/profile'
 
@@ -88,7 +88,7 @@ Where XXXXXXXXX is your cluster account. Replace that! Be also mindful of the na
 
 Go to working directory if you are not there already:
 
-	$ cd 1_Map2Reference
+	$ cd 01_Map2Reference
 
 Activate the environment: 
 
