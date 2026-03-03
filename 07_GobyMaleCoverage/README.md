@@ -6,7 +6,7 @@ The objective is to infer coverage along the Y haplotype of the two-spotted goby
 
 This pipeline uses the output of `05_GobyMapping` (BAM files) but ran for `PomflaTH1xy.fa` **with the x haplotype removed** (let's call it `PomflaTH1y.fa`), the assembly used for mapping (you can use the original `PomflaTH1xy.fa` or `PomflaTH1y.fa`, it won't make a difference), the annotation of satDNA, and the annotation of the *amhr2y* gene in gff3 format. See the configuration file below.
 
-If you ran the pipeline in `05_GobyMapping` with the French assembly as reference, you will have to duplicate the empty version of `05_GobyMapping` and run it this time for `PomflaTH1y.fa` (i.e., change the `config/config.yaml` file). 
+If you ran the pipeline in `` with the French assembly as reference, you will have to duplicate the empty version of `05_GobyMapping` and run it this time for `PomflaTH1y.fa` (i.e., change the `config/config.yaml` file). 
 
 ## The configuration file
 
@@ -15,7 +15,7 @@ The pipeline expects a configuration file in the path `config/config.yaml`, whic
 ```yaml
 # Sample IDs
 SampleIDs: ["PflaHELAf", "PflaKGBDf", "PflaHELEm", "PflaKGBHm"]
-# Path to BAM files of Illumina samples mapped to the reference
+# Path to BAM files of Illumina samples mapped to the reference, this time PomflaTH1y.fa
 path2BAMs: "../05_GobyMapping/mapping"
 # The reference genome (absolute path)
 REFGenome: "../../Zenodo/Assembly/PomflaTH1xy.fa" # Available in Zenodo repository
