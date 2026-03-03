@@ -43,7 +43,7 @@ IDENTITY: 95   # Minimum percentage of identity of BLAST hit to be considered (d
 
 Go to working directory if you are not there already:
 
-	> cd 2_SDsynteny
+	> cd 02_SDsynteny
 
 Activate the environment:
 
@@ -74,6 +74,4 @@ You should get a number, `$PID`, that you can use to cancel the job it something
 
 ## Results
 
-The pipeline will produce part of the Figure 3 in the manuscript. The rest of the figure was put together with some mummer alignment to chromosome 16 and Inkscape.
-
-
+The pipeline will produce part of the Figure 3 in the manuscript. The rest of the figure was put together with the mummer alignment produced in `01_Map2Reference` to chromosome 16 and Inkscape.
