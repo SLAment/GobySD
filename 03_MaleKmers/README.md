@@ -143,4 +143,6 @@ Or alternatively, without profiles:
 
 The pipeline was originally designed to make a bunch of plots for each input assembly that didn't make it to the paper. I later added the enrichment analysis, which became Figure S7, but it's incorporated as an after thought, so if you remove the two haplotype assemblies from the config file, things won't work.
 
+Here is the Figure S7:
 
+<img src="results/FigS7_EnrichmentKmer.png" alt="enrichment">
