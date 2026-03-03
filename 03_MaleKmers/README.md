@@ -145,4 +145,4 @@ The pipeline was originally designed to make a bunch of plots for each input ass
 
 Here is the Figure S7:
 
-<img src="results/FigS7_EnrichmentKmer.png" alt="enrichment">
+<img src="results/FigS7_EnrichmentKmer.png" alt="enrichment" width="500" height="200">
