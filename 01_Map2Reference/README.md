@@ -14,7 +14,7 @@ The pipeline also uses small mamba environments for individual rules (steps in t
 
 ## Input files
 
-The pipeline is designed to take the reference genome `fGobFla1.fasta` and an query assembly that gets "fixed" to match the sense of the chromosomes in the reference. The pipeline then produces an assembly, `PomflaTH1xy.fa` , which is used in the subsequent pipelines. As this file [already exists](), you can just place it in the `results` folder of this repository and the corresponding steps to create it (rules) won't run again, and instead go to subsequent steps.
+The pipeline is designed to take the reference genome `fGobFla1.fasta` and an query assembly that gets "fixed" to match the sense of the chromosomes in the reference. The pipeline then produces an assembly, `PomflaTH1xy.fa` , which is used in the subsequent pipelines. As this file [already exists in the Zenodo repository](), you can just place it in the `results` folder of this repository and the corresponding steps to create it (rules) won't run again, and instead go to subsequent steps.
 
 ## The configuration file
 
