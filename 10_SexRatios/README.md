@@ -20,9 +20,7 @@ List of data files and scripts/code, organised by section of the project.
 ### External data:
 ddRAD reads will be accessible at: http://www.ncbi.nlm.nih.gov/bioproject/1224570 
 
-reference genome will be accessible at: XX Zenodo repository to be updated XX
-
-vcf files will be accessible at: XX Dryad repository to be updated XX
+The reference genome and the VCF files are accessible at the [Zenodo repository](https://zenodo.org/records/18784321).
 
 ### List of datasets: 
 <ins>**popmap_hap1.txt :**</ins>     Population map, indicates the sex and population of origin of each individual in the ddRAD dataset. For alignment to haplotype 1 of the reference genome.

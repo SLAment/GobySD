@@ -8,6 +8,8 @@ This pipeline uses the output of `05_GobyMapping` (BAM files) but ran for `Pomfl
 
 If you ran the pipeline in `` with the French assembly as reference, you will have to duplicate the empty version of `05_GobyMapping` and run it this time for `PomflaTH1y.fa` (i.e., change the `config/config.yaml` file). 
 
+Remember some of the input files are available in the [Zenodo](https://zenodo.org/records/18784321) repository.
+
 ## The configuration file
 
 The pipeline expects a configuration file in the path `config/config.yaml`, which looks like so:

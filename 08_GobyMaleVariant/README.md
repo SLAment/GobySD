@@ -8,7 +8,7 @@ This pipeline uses the BAM files produced by the pipeline in `06_GobyIlluCoverag
 
 The pipeline runs for a window size of of 50000 bp, but this can be changed in the `config/config.yaml` file below.
 
-Some of the input files are only available in the Zenodo repository (TODO: provide link).
+Some of the input files are only available in the [Zenodo repository](https://zenodo.org/records/18784321).
 
 ## The configuration file
 
