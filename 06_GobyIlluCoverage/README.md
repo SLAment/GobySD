@@ -6,7 +6,7 @@ The objective is to infer coverage along the scaffolds of the two-spotted goby *
 
 This pipeline uses the output of `05_GobyMapping` (BAM files), the reference genome and the annotation of satDNA. See the configuration file below.
 
-The genome assembly and the annotation is available in the [Zenodo repository](https://zenodo.org/records/18784321).
+The genome assembly and the annotation are available in the [Zenodo repository](https://zenodo.org/records/18784321).
 
 ## The configuration file
 
