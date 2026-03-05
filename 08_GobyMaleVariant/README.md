@@ -64,10 +64,6 @@ For example, from other pipelines:
 
 	> export SNAKEMAKE_PROFILE='../05_GobyMapping/profile'
 
-If it doesn't work, you might have to add this to the pipeline at the start of the code, as:
-
-	profilefile: "path/to/profile/config.v8+.yaml"
-
 The `config.v8+.yaml` file contains:
 
 ```yaml
