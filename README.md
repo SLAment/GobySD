@@ -32,12 +32,6 @@ The order of the folders more or less reflects the order of figures in the paper
 
 The directories in the repository are ordered to reflect the order of analyses in the paper. The folder `data` contains files used by multiple pipelines.
 
------------
-TODO:
-
-- Describe folders here and mention what figures are produced where
-- Add link to the Zenodo repository
-
 ----
 
 Disclaimer: These scripts and files are provided "as is" and without any express or implied warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.
