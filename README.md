@@ -1,5 +1,8 @@
 # Characterizing the sex determination system of the two-spotted goby *Pomatoschistus flavescens*
 
+[![Snakemake](https://img.shields.io/badge/snakemake-≥8.0.0-brightgreen.svg)](https://snakemake.github.io)
+[![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)
+
 Here you'll find the code associated with the analyses of the manuscript:
 
 Ament-Velásquez et al. (2025) "Female-biased sex ratios despite genetic sex determination across a climatic gradient in a marine fish", [biorxiv](https://www.biorxiv.org/content/10.64898/2026.02.16.706123v1.full).
