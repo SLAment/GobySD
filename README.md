@@ -5,7 +5,7 @@
 
 Here you'll find the code associated with the analyses of the manuscript:
 
-Ament-Velásquez et al. (2025) "Female-biased sex ratios despite genetic sex determination across a climatic gradient in a marine fish", [biorxiv](https://www.biorxiv.org/content/10.64898/2026.02.16.706123v1.full).
+> Ament-Velásquez et al. (2025) "Female-biased sex ratios despite genetic sex determination across a climatic gradient in a marine fish", [biorxiv](https://www.biorxiv.org/content/10.64898/2026.02.16.706123v1.full).
 
 ## Data availability
 
