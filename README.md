@@ -11,7 +11,7 @@ Here you'll find the code associated with the analyses of the manuscript:
 
 The bioinformatics pipelines were all designed in [Snakemake](https://snakemake.readthedocs.io/en/stable/) and depend on [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) environments.
 
-The standard with snakemake is that the pipeline is a file called `Snakefile`. However, I actually name them something else, like `mypipeline.smk` simply because it helps me to keep track of what pipeline is doing what other than based on its path. Feel free to rename the files when you are working, but instructions are provided with the existing names.
+The standard with snakemake is that the pipeline is a file called `Snakefile`. However, I actually name them something else, like `mypipeline.smk` simply because it helps me to keep track of what pipeline is doing what other than based on its path. Feel free to rename the files when you are working, but instructions are provided with the existing names. Further instructions are giving within each pipeline folder.
 
 The order of the folders more or less reflects the order of figures in the paper. Most pipelines are designed to produce publication-ready figures, but some were further edited or assembled in [Inkscape](https://inkscape.org/).
 
