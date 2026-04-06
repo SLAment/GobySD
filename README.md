@@ -20,13 +20,13 @@ The order of the folders more or less reflects the order of figures in the paper
 
 - Smaller datasets and annotation files are provided in this repository. The folder `data` contains some files used by multiple pipelines. Larger files, such as the genome assemblies, GFF annotation files, and VCF variant files are available in [Zenodo](https://zenodo.org/records/18784321).
 - The newly-generated genomic data for this study have been deposited in the European Nucleotide Archive (ENA) at EMBL-EBI under accession number [PRJEB103015](https://www.ebi.ac.uk/ena/browser/view/PRJEB103015).
-- Previously produced ddRAD raw reads are available in National Center for Biotechnology Information (NCBI)under accession number [PRJNA1224570](http://www.ncbi.nlm.nih.gov/bioproject/1224570).
+- Previously produced ddRAD raw reads are available in National Center for Biotechnology Information (NCBI) under accession number [PRJNA1224570](http://www.ncbi.nlm.nih.gov/bioproject/1224570).
 
 **Looking for the genome assembly of our male fish (aka. the Norwegian individual)?**
 Go to [Zenodo](https://zenodo.org/records/18784321)!
 
 **Looking for the reference genome assembly of the two-spotted goby (aka. the French individual)?**
-You can get it from NCBI (GenBank's accession number OZ251433.1) or from our [Zenodo](https://zenodo.org/records/18784321) repository.
+You can get it from NCBI (GenBank's accession number [OZ251433.1](https://www.ncbi.nlm.nih.gov/nuccore/OZ251433.1)) or from our [Zenodo](https://zenodo.org/records/18784321) repository.
 
 **Looking for the genome annotations?**
 Go to [Zenodo](https://zenodo.org/records/18784321)! But notice that some files are also in this repository, at `data/Annotation`.
