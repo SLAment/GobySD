@@ -8,8 +8,8 @@ As input the pipeline uses the count table `male_specific.tbl` produced by `kpoo
 
 And the tables themselves were produced with [Jellyfish](https://www.genome.umd.edu/jellyfish.html) per individual, followed by a `merge` by sex:
 
-	kpool merge -m female1table -f female2table -o rawtable.females"
-	kpool merge -m male1table -f male2table -o rawtable.males"
+	kpool merge -m female1table -f female2table -o rawtable.females
+	kpool merge -m male1table -f male2table -o rawtable.males
 
 Since the output contains two columns (one per sample), I fused them with awk. For example, for the males:
 
