@@ -21,9 +21,9 @@ From the k-mer table, the pipeline generates a fasta file which is then mapped t
 
 I built [conda](https://docs.conda.io/en/latest/) environment using the [Mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html) implementation:
 
-	> mamba create -n gobysmudge -c bioconda snakemake-minimal=8.30.0 snakemake-executor-plugin-cluster-generic=1.0.9 fastk=1.1.0 smudgeplot=0.4.0 bedtools=2.31.1 samtools=1.21
+	$ mamba create -n gobysmudge -c bioconda snakemake-minimal=8.30.0 snakemake-executor-plugin-cluster-generic=1.0.9 fastk=1.1.0 smudgeplot=0.4.0 bedtools=2.31.1 samtools=1.21
 
-	> mamba activate gobysmudge
+	$ mamba activate gobysmudge
 
 In addition, the pipeline uses small environments for the some rules (a subsection of the analysis), with configuration files in the folder `envs`. The pipeline will automatically create the mini environments using these files.
 
@@ -94,49 +94,49 @@ Where XXXXXXXXX is your cluster account. Replace that! Be also mindful of the na
 
 Go to working directory if you are not there already:
 
-	> cd 03_MaleKmers
+	$ cd 03_MaleKmers
 
 Activate the environment:
 
-	> mamba activate gobysmudge
+	$ mamba activate gobysmudge
 
 First, to get an idea of how the pipeline looks like we can make a rulegraph:
 
-	> snakemake --snakefile MaleKmers.smk --rulegraph | dot -Tpng > rulegraph.png
+	$ snakemake --snakefile MaleKmers.smk --rulegraph | dot -Tpng > rulegraph.png
 
 ![rulegraph](rulegraph.png "rulegraph")
 
 To check that the files for the pipeline are in order:
 
-	> snakemake --snakefile MaleKmers.smk -pn
+	$ snakemake --snakefile MaleKmers.smk -pn
 
 Or with the profile in a cluster:
 
-	> snakemake --profile profile -pn
+	$ snakemake --profile profile -pn
 
 There are many ways of running the pipeline. In this case I'm using the profile file defined above. 
 
-	> screen -R malekmers
-	> mamba activate gobysmudge
-	> snakemake --profile profile &> snakemake.log &
+	$ screen -R malekmers
+	$ mamba activate gobysmudge
+	$ snakemake --profile profile &> snakemake.log &
 	[1] 3536441
 
 Or alternatively, without profiles:
 
-	> screen -R malekmers
-	> mamba activate gobysmudge
-	> snakemake --snakefile MaleKmers.smk -p --cluster "sbatch -A naiss2024-22-1697 -p shared -c {threads} -t {resources.time}" -j 10 --keep-going &> snakemake.log &
+	$ screen -R malekmers
+	$ mamba activate gobysmudge
+	$ snakemake --snakefile MaleKmers.smk -p --cluster "sbatch -A naiss2024-22-1697 -p shared -c {threads} -t {resources.time}" -j 10 --keep-going &> snakemake.log &
 	[1] 1702605
 
 
 ## Locally
 
-	% cd /Users/lorena/Library/CloudStorage/Dropbox/VRwork/Analyses/7_Goby/Dardel/complexity_adaptation/04_MaleKmers
-	% mamba activate malekmers
+	$ cd /Users/lorena/Library/CloudStorage/Dropbox/VRwork/Analyses/7_Goby/Dardel/complexity_adaptation/04_MaleKmers
+	$ mamba activate malekmers
 
-	% snakemake --snakefile MaleKmers.smk -pn
+	$ snakemake --snakefile MaleKmers.smk -pn
 	
-	% snakemake --snakefile MaleKmers.smk -j8
+	$ snakemake --snakefile MaleKmers.smk -j8
 
 
 ## Output
